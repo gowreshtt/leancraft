@@ -1,0 +1,60 @@
+import { Badge } from '../types';
+
+export const BADGES: Badge[] = [
+  {
+    id: 'first_qed',
+    title: 'First QED',
+    description: 'Complete your very first Lean 4 formal proof.',
+    icon: '🏆',
+    requirement: 'Complete 1 exercise',
+    category: 'completion',
+  },
+  {
+    id: 'streak_3',
+    title: 'Consistency Cadet',
+    description: 'Maintain a 3-day study streak.',
+    icon: '🔥',
+    requirement: '3-day streak',
+    category: 'streak',
+  },
+  {
+    id: 'streak_7',
+    title: 'Unstoppable Prover',
+    description: 'Maintain a 7-day solid streak of formal reasoning.',
+    icon: '⚡',
+    requirement: '7-day streak',
+    category: 'streak',
+  },
+  {
+    id: 'logic_adept',
+    title: 'Propositional Master',
+    description: 'Complete all Propositional Logic lessons.',
+    icon: '🧠',
+    requirement: 'Complete Module 1',
+    category: 'mastery',
+  },
+  {
+    id: 'induction_wizard',
+    title: 'Induction Wizard',
+    description: 'Master natural number and structural induction.',
+    icon: '🧙‍♂️',
+    requirement: 'Complete Induction exercises',
+    category: 'mastery',
+  },
+  {
+    id: 'omega_lord',
+    title: 'Omega Lord',
+    description: 'Solve arithmetic inequalities using linarith and omega.',
+    icon: '🌌',
+    requirement: 'Complete Arithmetic module',
+    category: 'mastery',
+  },
+  {
+    id: 'type_theorist',
+    title: 'Dependent Architect',
+    description: 'Reach Level 5 and solve advanced dependent type theorems.',
+    icon: '🏛️',
+    requirement: 'Reach Level 5',
+    category: 'special',
+  },
+];

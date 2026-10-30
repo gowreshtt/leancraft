@@ -1,0 +1,6 @@
+{
+  "name": "LeanCraft - Lean 4 Theorem Prover Academy",
+  "description": "Master Lean 4 theorem proving and formal mathematics step by step with interactive proof editor, gamified learning, streaks, and AI hints.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
